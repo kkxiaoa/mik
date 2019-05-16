@@ -1,0 +1,4 @@
+<view class="search" bind:tap="click">
+      <input type="text" class="search-input" disabled />
+      <text class="search-text  iconfont icon-search" >搜索商品</text>
+</view>

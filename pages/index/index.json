@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "v-search-icon":"/components/search-icon/index",
+    "v-banner": "/components/banner/index",
+    "v-nav":"/components/nav/index",
+    "v-show-goods": "/components/show-goods/index",
+    "v-add-more": "/components/add-more/index"
+  },
+  "onReachBottomDistance": 50
+}

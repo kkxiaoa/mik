@@ -1,0 +1,54 @@
+/* components/buy-button/index.wxss */
+@import "/style/iconfont";
+
+
+.buy{
+  height: 100rpx;
+  width: 100%;
+  
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+.go-cart{
+  flex: 1;
+  background: #eee;
+  position: relative;
+}
+.icon-cart::before{
+  content: "\e63f";
+  font-size:50rpx;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left: -25rpx;
+  margin-top: -25rpx;
+}
+/* 购物车数量样式 */
+.go-cart .count{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  background-color: #D83315;
+  color:white;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 30rpx;
+  border-radius: 50%;
+  top:10%;
+  left:60%;
+}
+.add-cart{
+  flex:3;
+  text-align: center;
+  color:white;
+  background-color: red;
+  line-height: 100rpx;
+}
+.buy-it{
+  flex: 3;
+  color:white;
+  text-align: center;
+  background-color: #D83315;
+  line-height: 100rpx;
+}

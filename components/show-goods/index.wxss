@@ -1,0 +1,47 @@
+/* components/goods/index.wxss */
+@import "/style/iconfont";
+.icon-cart::before{
+  content: '\e63f';
+}
+.goods{
+  width: 50vw;
+  display: flex;
+  flex-direction:column;
+  padding:20rpx;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.goods image{
+  width: 280rpx;
+  height: 360rpx;
+}
+.goods .title{
+  font-size: 36rpx;
+   overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  display: block;
+}
+.goods .desc{
+  font-size: 26rpx;
+  color: grey;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  display: block;
+}
+.goods view{
+  width: 100%;
+}
+.goods .price{
+  font-size: 26rpx;
+  color: #D83315;
+}
+.goods .price-part{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0 ;
+}

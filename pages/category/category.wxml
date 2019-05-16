@@ -1,0 +1,27 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <view class="left">
+    <scroll-view scroll-y style="height:{{windowHeight}}px;" bindtap="leftClick">
+      <view class="scroll-view-items" wx:for="{{leftItems}}" id="{{index}}" wx:key="id">
+        <text class="left-items-text" id="{{index}}" style="color:{{tapColor==index?'red':'black'}}">{{item.content}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="right">
+    <scroll-view scroll-y style="height:{{windowHeight}}px;" scroll-into-view="{{toRinghtView}}"  scroll-with-animation="true">
+      <view id="green" class="scroll-view-item" wx:for="{{rightItems}}" id="{{'ids'+index}}" wx:key="id">
+        <view class="item-title">
+          <text>—  {{item.name}}  —</text>
+        </view>
+        <view class="item-content">
+          <view class="item-content-item" wx:for="{{item.goodsArry}}" wx:for-item="itemName" wx:key="id">
+            <view class="item-content-item-min">
+              <image src="{{itemName.imgUrl}}" />
+              <text>{{itemName.name}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/category/category",
+    "pages/me/me",
+    "pages/other/search/index",
+    "pages/other/goods/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D83315",
+    "navigationBarTitleText": "mik商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#f22752",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/tabBar/home.png",
+        "selectedIconPath": "image/tabBar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "image/tabBar/classic.png",
+        "selectedIconPath": "image/tabBar/classic_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "image/tabBar/cart.png",
+        "selectedIconPath": "image/tabBar/cart_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "image/tabBar/me.png",
+        "selectedIconPath": "image/tabBar/me_active.png"
+      }
+    ]
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"用于购买商品"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

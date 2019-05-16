@@ -1,0 +1,22 @@
+<view class="nav-items">
+    <view class="nav-item">
+        <view class="nav-icon"><text class="nav-icon-text">今</text></view>
+        <text class="nav-text">手机</text>
+    </view>
+    <view class="nav-item">
+        <view class="nav-icon"><text class="nav-icon-text">日</text></view>
+        <text class="nav-text">电视</text>
+    </view>
+    <view class="nav-item">
+        <view class="nav-icon logo"><image src="/image/logo.png"></image></view>
+        <text class="nav-text">LOGO</text>
+    </view>
+    <view class="nav-item">
+        <view class="nav-icon"><text class="nav-icon-text">特</text></view>
+        <text class="nav-text">智能</text>
+    </view>
+    <view class="nav-item">
+        <view class="nav-icon"><text class="nav-icon-text">惠</text></view>
+        <text class="nav-text">周边</text>
+    </view>
+</view>

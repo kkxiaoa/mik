@@ -1,0 +1,15 @@
+<view class="pay">
+  <view class="options" bindtap='changeSelect'>
+    <view class="cancel" wx:if="{{!select}}"></view>
+    <view class="select iconfont" wx:else></view>
+  </view>
+  <text class="txt"> 全选</text>
+  <view class="money-text">
+     <text class="all-text">合计：</text>
+     <text class="all-money">{{money}}元</text>
+     <view class="buy-btn canBtn{{canBtn}}" bind:tap="calculate">
+            结算({{count}})
+     </view>
+  </view>
+  
+</view>

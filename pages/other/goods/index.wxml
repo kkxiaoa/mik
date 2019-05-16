@@ -1,0 +1,52 @@
+<view>
+  <!-- 轮播图部分 -->
+   <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    circular="{{true}}"
+    bindchange="bannerChange"
+  >
+    <swiper-item v-if="{{goodsdesc.video?true:false}}">
+       <video src="{{goodsdesc.video}}" poster='{{goodsdesc.posters[0]}}'
+        bindplay="playVideo"
+        bindpause="pauseVideo"
+        bindended="endVideo"
+        id="goodsVideo"
+       ></video>
+    </swiper-item>
+    <block wx:for="{{goodsdesc.posters}}" wx:key="index">
+      
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!-- 商品信息 -->
+  <view class="content">
+    <view class="title">
+      {{goodsdesc.title}}
+    </view>
+    <view class="desc">
+      {{goodsdesc.desc}}
+    </view>
+    <view class="price">
+      {{goodsdesc.price}}元
+    </view>
+  </view>
+
+  <!-- 地址部分 -->
+  <v-address-goods address="{{address}}" title="{{goodsdesc.title}}"></v-address-goods>
+
+  <!-- 商品详情图片 -->
+  <view class="desc-pic">
+    
+    <block wx:for="{{goodsdesc.desc_pictrues}}"  wx:key="index">
+      <image src="{{item}}" mode='widthFix'></image>
+    </block>
+  </view>
+  <!-- 添加购物车部分 -->
+  <v-buy-bottom bind:gotoCart="gotoCart" bind:addCart="addCart" bind:buy="buy" count="{{count}}"></v-buy-bottom>
+</view>

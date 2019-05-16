@@ -1,0 +1,11 @@
+.lunbo{
+  height: 350rpx;
+}
+.lunbo swiper{
+  height: 350rpx;
+}
+.slide-image{
+  height:350rpx;
+  width:100%;
+  height: 100%;
+}

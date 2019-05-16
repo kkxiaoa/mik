@@ -1,0 +1,11 @@
+<view class="buy"> 
+   <view class="iconfont go-cart icon-cart" bind:tap="gotoCart">
+     <text class="count" wx:if="{{count!==0}}">{{count}}</text>
+   </view>
+   <view class="add-cart" bind:tap="addCart">
+      加入购物车
+   </view>
+   <view class="buy-it" bind:tap="buy">
+      立即购买
+   </view>
+</view>

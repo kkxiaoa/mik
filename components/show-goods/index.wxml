@@ -1,0 +1,14 @@
+<view class="goods">
+  <image src="{{item.poster_url}}"></image>
+  <view>
+    <text class="title">{{item.title}}</text>
+  </view>
+  <view>
+    <text class="desc">{{item.description}}</text>
+  </view>
+  <view class="price-part">
+    <text class="price">{{item.price}}元</text>
+    <text class="iconfont icon-cart"></text>
+  </view>
+</view>
+

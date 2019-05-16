@@ -1,0 +1,70 @@
+@import "/style/iconfont";
+.pay{
+  position: absolute;
+  height: 100rpx;
+  width:100%;
+  bottom: 0;
+  background-color: white;
+  border-bottom: 1rpx solid #eee;
+}
+.options{
+  width: 100rpx;
+  height: 100%;
+  padding:30rpx;
+  box-sizing: border-box;
+  float: left;
+}
+.options .cancel{
+  border:1px solid #ccc;
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  box-sizing: border-box;
+}
+.options .select{
+  position: relative;
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  box-sizing: border-box;
+}
+.options .select::before{
+  content: "\e625";
+  width: 40rpx;
+  height: 40rpx;
+  color:red;
+  font-size: 40rpx;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.txt{
+  font-size: 20rpx;
+  line-height: 100rpx;
+}
+.money-text{
+  float: right;
+  display: flex;
+}
+.buy-btn{
+  width: 250rpx;
+  background: gray;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color:white;
+}
+.canBtntrue{
+  background-color: red;
+}
+.all-text{
+  font-size: 35rpx;
+  line-height: 100rpx;
+}
+.all-money{
+  padding:0 20rpx 0 0;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  color:red;
+}

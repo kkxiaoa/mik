@@ -1,0 +1,92 @@
+/* components/cart-part/cart-goods/index.wxss */
+@import "/style/iconfont";
+.cart-goods-part{
+  position: relative;
+  transition: all 0.5s;
+}
+.cart-goods-part.activetrue{
+  transform: translateX(-100rpx);
+}
+.cart-goods{
+  border-bottom: 1px solid #eee;
+  display: flex;
+  height: 100rpx;
+  background-color: white;
+}
+.options{
+  width: 100rpx;
+  height: 100%;
+  padding:30rpx;
+  box-sizing: border-box;
+}
+.options .cancel{
+  border:1px solid #ccc;
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  box-sizing: border-box;
+}
+.options .select{
+  position: relative;
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  box-sizing: border-box;
+}
+.options .select::before{
+  content: "\e625";
+  width: 40rpx;
+  height: 40rpx;
+  color:red;
+  font-size: 40rpx;
+  position: absolute;
+  top:0;
+  left:0;
+}
+image{
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+}
+.title{
+  font-size: 30rpx;
+  line-height: 100rpx;
+  width: 50vw;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.money{
+  flex: 2,
+}
+.money .count{
+  font-size: 20rpx;
+  color:gray;
+  line-height: 100rpx;
+}
+.money .pay{
+  font-size: 30rpx;
+  color:red;
+  line-height: 100rpx;
+  margin-left: 10rpx;
+}
+
+/* 删除部分 */
+.del{
+  position: absolute;
+  background-color: #D83315;
+  width: 100rpx;
+  height: 100rpx;
+  right: -100rpx;
+  top:0;
+}
+.del::before{
+  content: "\e618";
+  font-size:40rpx;
+  position: absolute;
+  color:white;
+  top:50%;
+  left: 50%;
+  margin-left: -20rpx;
+  margin-top:-20rpx;
+}

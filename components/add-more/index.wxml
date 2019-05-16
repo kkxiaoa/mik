@@ -1,0 +1,12 @@
+<view class="add-more" >
+    <view class="gif" wx:if="{{addMore}}">
+        <view class="spinner">
+          <view class="bounce1"></view>
+          <view class="bounce2"></view>
+          <view class="bounce3"></view>
+        </view>
+    </view>
+    <view wx:else>
+       没有更多了...
+    </view>
+</view>

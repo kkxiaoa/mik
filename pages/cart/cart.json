@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+     "v-cart-goods":"/components/cart-part/cart-goods/index",
+      "v-cart-buy": "/components/cart-part/cart-buy/index"
+  }
+}

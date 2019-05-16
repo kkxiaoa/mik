@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-address-goods":"/components/address-goods/index",
+    "v-buy-bottom": "/components/buy-bottom/index"
+  }
+}

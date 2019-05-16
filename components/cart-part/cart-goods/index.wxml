@@ -1,0 +1,16 @@
+<view class="cart-goods-part active{{del}}" bind:touchstart="start" bind:touchend="end">
+  <view class="cart-goods">
+    <!-- 控制选择状态的结构 -->
+    <view class="options" bindtap='changeSelect'>
+      <view class="cancel" wx:if="{{!select}}"></view>
+      <view class="select iconfont" wx:else></view>
+    </view>
+    <image src="{{posterurl}}"></image>
+    <text class="title">{{title}}</text>
+    <view class="money">
+      <text class="count">{{count}} x</text>
+      <text class="pay">{{price}}元</text>
+    </view>
+  </view>
+  <view class="iconfont del" bind:tap="delGoods"></view>
+</view>

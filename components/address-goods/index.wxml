@@ -1,0 +1,10 @@
+<view class="address">
+   <view class="row">
+      <text class="tip">送至</text>
+      <text class="value">{{address}}</text>
+   </view>
+   <view class="row">
+      <text class="tip">已选</text>
+      <text class="value">{{title}}</text>
+   </view>
+</view>

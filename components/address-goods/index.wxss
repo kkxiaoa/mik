@@ -1,0 +1,19 @@
+/* components/address-goods/index.wxss */
+.address{
+  padding:40rpx;
+  border-top:20rpx solid #eee;
+  border-bottom:20rpx solid #eee;
+}
+.row{
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.row .tip{
+  font-size: 20rpx;
+  color:grey;
+}
+.row .value{
+  margin-left: 50rpx;
+  font-size: 30rpx;
+}

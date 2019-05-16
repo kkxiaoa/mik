@@ -1,0 +1,33 @@
+/* components/search-part/search-icon/index.wxss */
+/* @import "/style/font-icon"; */
+
+@import "/style/iconfont";
+
+.icon-search::before{
+  content: '\e610';
+}
+.search{
+  width:100%;
+  height: 100rpx;
+  background-color:#D83315;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  padding:0 20rpx;
+  box-sizing: border-box;
+  position:relative;
+}
+.search-input{
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+}
+.search-text{
+  position: absolute;
+  z-index:10;
+  font-size:28rpx;
+  color:gray;
+  left:50%;
+  margin-left: -60rpx;
+}

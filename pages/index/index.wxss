@@ -1,0 +1,4 @@
+.new-goods{
+  display: flex;
+  flex-wrap: wrap;
+}

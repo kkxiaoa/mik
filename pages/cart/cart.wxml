@@ -1,0 +1,32 @@
+
+<view class="goods-cart" wx:if="{{hasGoods}}" >
+  <!-- 购物车显示部分 -->
+  <block wx:for="{{cartGoods}}" wx:key="index">
+    <v-cart-goods
+     select="{{item.selectStatus}}"
+     posterurl="{{item.posterUrl}}"
+     title="{{item.goodsTitle}}"
+     count="{{item.count}}"
+     price="{{item.goodsPrice}}"
+     bind:selectOption="selectOption"
+     bind:del="del"
+     data-goodsid="{{item.goodsId}}"
+    ></v-cart-goods>
+  </block>
+  <!-- 底部结算部分 -->
+  <v-cart-buy
+    bind:selectAll="selectAll"
+    bind:calculate="calculate"
+    select="{{selectAll}}"
+    money="{{money}}"
+    count="{{count}}"
+  ></v-cart-buy>
+</view>
+<!-- 购物车没有商品的显示 -->
+<view class="cart" wx:else>
+   <view class="iconfont">
+      <text class=" icon-cart"></text>
+   </view>
+   <text class="txt">购物车还是空的</text>
+   <text class="go-store" bind:tap="goStore">去商城逛逛</text>
+</view>

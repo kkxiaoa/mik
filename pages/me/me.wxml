@@ -1,0 +1,42 @@
+<!--pages/user/user.wxml-->
+<view class="user">
+
+  <view class="avater">
+      <view class="avater-img" bindtap="changeAvater">
+        <image src="{{avatarUrl}}" />
+      </view>
+      <view class="avater-name">
+        <text class="names">{{nickName}}</text>
+        <text class="bind-text">绑定小米账号</text>
+      </view>
+      <text class="iconfont icon-code code"></text>
+  </view>
+
+  <view class="cart">
+      <view class="cart1">
+          <text class="iconfont icon-order icons"></text> 
+          <text class="cart-text">我的订单</text>
+      </view>
+      <view class="cart2">
+          <text class="iconfont icon-curt icons"></text>
+          <text class="cart-text">购物车</text>
+      </view>
+  </view>
+      
+  <view class="discount">
+      <view class="cart2">
+          <text class="iconfont icon-discount icons"></text>
+          <text class="cart-text">我的优惠券</text>
+      </view>
+  </view>
+
+  <view class="setting">
+      <view class="cart2">
+          <text class="iconfont icon-setting icons"></text>
+          <text class="cart-text">设置</text>
+      </view>
+  </view>
+  <view class="mask" wx:if="{{showMask}}">
+     <button open-type="getUserInfo">获取信息</button>
+  </view>
+</view>

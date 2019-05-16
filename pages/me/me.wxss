@@ -1,0 +1,129 @@
+@import "/style/iconfont";
+
+.icon-code::before{
+   content: '\e600';
+
+}
+.icon-order::before{
+   content: '\e682';
+   font-size: 40rpx;
+   color:#999;
+}
+.icon-curt::before{
+   content: '\e63f';
+    font-size: 40rpx;
+   color:#999;
+}
+.icon-discount::before{
+   content: '\e683';
+   font-size: 30rpx;
+   color:#999;
+}
+.icon-setting::before{
+   content: '\e63b';
+   font-size: 40rpx;
+   color:#999;
+}
+/* 字体图标 ------------------------------------------------------ */
+
+.user{
+  background: rgb(206, 204, 204);
+}
+.avater{
+  width: 100%; 
+  height: 80px;
+  padding:10rpx 30rpx; 
+  background-color:white;
+  display: flex;
+  position: relative;
+  border-top:10rpx solid rgb(206, 204, 204);
+  border-bottom:10rpx solid rgb(206, 204, 204);
+  box-sizing: border-box;
+}
+.avater .avater-img{ 
+   width:120rpx;
+   height: 120rpx; 
+  background-color: #D83315; 
+  border-radius: 5%;
+}
+.avater .avater-img image{
+    width:120rpx;
+    height: 120rpx; 
+    border-radius: 5%; 
+}
+.avater-name{
+     padding:10rpx 20rpx;
+     height: 40rpx; 
+     display: flex;
+     flex-direction: column;
+}
+.avater-name .names{
+   line-height: 60rpx;
+}
+.avater-name .bind-text{
+   background-color: #999;
+   color:white;
+   font-size:24rpx;
+   padding:10rpx;
+}
+.code{
+  position: absolute;
+  right: 80rpx;
+  font-size: 60rpx;
+  top:32rpx;
+  color:gray
+}
+
+/* 订单样式----------------------------- */
+.cart,.discount,.setting{
+  padding:0 30rpx;
+  height: 160rpx;
+  background-color: white;
+  border-bottom:10rpx solid rgb(206, 204, 204);
+}
+.cart1,.cart2{
+  border-bottom: 1rpx solid rgb(206, 204, 204);
+  height: 80rpx;
+  box-sizing: border-box;
+  font-size: 36rpx; 
+  line-height:80rpx;
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cart2{
+  border-bottom: none;
+}
+.cart-text{
+  height: 80rpx;
+  vertical-align: middle;
+  font-size: 24rpx;
+  line-height: 80rpx;
+  padding-left:10rpx;
+  margin-top: -5rpx;
+}
+.icons{
+  line-height: 80rpx;
+  height:80rpx;
+  /* display: block; */
+  
+}
+.discount{
+  height:80rpx;
+}
+.setting{
+  height: 80rpx;
+}
+
+.mask{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mask button{
+  width: 300rpx;
+  margin-top: 200rpx;
+}
