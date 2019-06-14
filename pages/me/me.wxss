@@ -36,8 +36,8 @@
   background-color:white;
   display: flex;
   position: relative;
-  border-top:10rpx solid rgb(206, 204, 204);
-  border-bottom:10rpx solid rgb(206, 204, 204);
+  border-top:10rpx solid #e8e8e8;
+  border-bottom:10rpx solid #e8e8e8;
   box-sizing: border-box;
 }
 .avater .avater-img{ 
@@ -79,10 +79,10 @@
   padding:0 30rpx;
   height: 160rpx;
   background-color: white;
-  border-bottom:10rpx solid rgb(206, 204, 204);
+  border-bottom:10rpx solid #e8e8e8;
 }
 .cart1,.cart2{
-  border-bottom: 1rpx solid rgb(206, 204, 204);
+  border-bottom: 1rpx solid #e8e8e8;
   height: 80rpx;
   box-sizing: border-box;
   font-size: 36rpx; 
