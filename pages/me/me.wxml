@@ -7,7 +7,7 @@
       </view>
       <view class="avater-name">
         <text class="names">{{nickName}}</text>
-        <text class="bind-text">绑定小米账号</text>
+        <text class="bind-text">绑定账号</text>
       </view>
       <text class="iconfont icon-code code"></text>
   </view>

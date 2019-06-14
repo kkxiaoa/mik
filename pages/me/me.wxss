@@ -7,27 +7,27 @@
 .icon-order::before{
    content: '\e682';
    font-size: 40rpx;
-   color:#999;
+   color:#eaeaea;
 }
 .icon-curt::before{
    content: '\e63f';
     font-size: 40rpx;
-   color:#999;
+   color:#eaeaea;
 }
 .icon-discount::before{
    content: '\e683';
    font-size: 30rpx;
-   color:#999;
+   color:#eaeaea;
 }
 .icon-setting::before{
    content: '\e63b';
    font-size: 40rpx;
-   color:#999;
+   color:#eaeaea;
 }
 /* 字体图标 ------------------------------------------------------ */
 
 .user{
-  background: rgb(206, 204, 204);
+  background: #eaeaea;
 }
 .avater{
   width: 100%; 

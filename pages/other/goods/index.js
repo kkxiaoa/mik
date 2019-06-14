@@ -25,9 +25,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("-----")
-     console.log(options)
-    console.log("-----")
+    console.log(options)
      let id = options.goodsid
      let poster = options.poster
      // 根据接口传入商品id，获取对应商品的详情数据

@@ -8,4 +8,4 @@ export const getCartCountFromStorage = function () {
     count += item.count
   })
   return count
-} 
+}

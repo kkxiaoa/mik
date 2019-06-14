@@ -6,8 +6,8 @@
   <!-- 商品显示部分 -->
   <view class="new-goods">
     <block wx:for="{{goodsDatas}}" wx:key="item.id">
-    <v-show-goods item="{{item}}" bind:tap="gotoGoodsPage" data-poster="{{item.poster_url}}" data-id="{{item.product_id}}" ></v-show-goods>
-  </block>
+      <v-show-goods item="{{item}}" bind:tap="gotoGoodsPage" data-poster="{{item.poster_url}}" data-id="{{item.product_id}}" ></v-show-goods>
+    </block>
   </view>
   
   <v-add-more addMore="{{addMore}}"></v-add-more>

@@ -7,10 +7,10 @@
         <view class="nav-icon"><text class="nav-icon-text">日</text></view>
         <text class="nav-text">电视</text>
     </view>
-    <view class="nav-item">
-        <view class="nav-icon logo"><image src="/image/logo.png"></image></view>
+    <!-- <view class="nav-item">
+        <view class="nav-icon logo"></view>
         <text class="nav-text">LOGO</text>
-    </view>
+    </view> -->
     <view class="nav-item">
         <view class="nav-icon"><text class="nav-icon-text">特</text></view>
         <text class="nav-text">智能</text>
