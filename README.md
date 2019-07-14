@@ -10,9 +10,7 @@
 - 定位
 - 购物车
 
-![](./image/readme/s1.png)
-
-![](./image/readme/s2.png)
+![](./image/readme/s1.png) ![](./image/readme/s2.png)
 
 ![](./image/readme/s3.png)
 
