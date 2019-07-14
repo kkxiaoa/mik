@@ -49,8 +49,9 @@ Component({
        this.triggerEvent('selectAll',this.data.select)
     },
     calculate(){
+      console.log()
        // 当count值为0的时候不能调用
-       if(canBtn){
+      if (this.data.count){
          this.triggerEvent("calculate")
          wx.showToast({
            title: '跳转结算页面',
