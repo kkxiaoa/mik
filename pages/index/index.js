@@ -20,7 +20,6 @@ Page({
     })
     // 加载商品列表的数据
     getGoodsDatas().then(res=>{
-      console.log(res)
       this.setData({
         goodsDatas:res.data
       })
@@ -28,7 +27,6 @@ Page({
     })
   },
   togoSearchPage(){
-    console.log("父组件监听到了子组件触发的click")
     // 跳转到搜索页面
     wx.navigateTo({
       url: '/pages/other/search/index',
@@ -38,7 +36,6 @@ Page({
   //上拉加载的勾子函数
   onReachBottom(){
     if(this.data.flag){
-      console.log(1111111)
       this.setData({
          flag: false
       })
@@ -61,7 +58,6 @@ Page({
   },
   // 跳转到商品详情页
   gotoGoodsPage(opts){
-    // console.log(opts)
     let id = opts.target.dataset.id
     let poster = opts.target.dataset.poster
     wx.navigateTo({

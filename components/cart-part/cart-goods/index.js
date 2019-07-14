@@ -36,12 +36,10 @@ Component({
        let x = ev.changedTouches[0].pageX
        if(this.data.x - x >20){
          // 向左边滑动
-         console.log("向左边滑动")
          this.setData({
            del:true
          })
        }else if(this.data.x - x < -20){
-         console.log("向右边滑动")
          this.setData({
            del: false
          })

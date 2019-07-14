@@ -1,2 +1,32 @@
-<!--pages/other/search/index.wxml-->
-<text>这是搜索页面</text>
+<view class="container">
+  <view class='search-page-wraper'>
+    <view class='search-page'>
+      <view class='top-bar-wraper'>
+        <view class='top-bar'>
+          <view class='input-box'>
+            <text class='iconfont icon-search'></text>
+            <input class="text-content" type='text' bindinput='handlerInput' placeholder='搜索商品'></input>
+          </view>
+          <view class='handler-search'>
+            <text>搜索</text>
+          </view>
+        </view>
+      </view>
+      <view class='hot-search-wraper'>
+        <view class='title'>热门搜索</view>
+        <view class='img-wraper'>
+          <image src='../../../image/search/mi2.jpg'></image>
+        </view>
+        <view class='search-list'>
+          <view class='search-item' wx:for="{{searchList}}" wx:key="{{index}}">{{item}}</view>
+        </view>
+      </view>
+      <view class='search-category-wraper'>
+        <view class='title'>常用分类</view>
+        <view class='category-list'>
+          <view class='category-item' wx:for="{{categoryList}}" wx:key="{{index}}">{{item}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

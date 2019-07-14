@@ -23,19 +23,12 @@ Page({
     })
      // 获取左边列表的数据
     getCategoryData().then(res=>{
-      console.log(res)
       this.setData({
          leftItems:res.data
       })
     })
      // 获取右边列表的数据
     getCategoryItemsData().then(res=>{
-      console.log(res)
-      /* [{
-           type:"phone",
-           gooddArry:[{name:"小米",imgUrl:"http://www.baidu.com"}]
-         }]
-      */
       var arry = []
       var obj = {}
       res.data.forEach(item => {
@@ -52,24 +45,20 @@ Page({
       for (var i in obj) {
         arry.push({ "name": obj[i], 'goodsArry': [] })
       }
-      console.log(arry)
       // 遍历所有数据
       arry.forEach(item => {
         res.data.forEach(items => {
           if (items.type === item.name) {
-            console.log(11111)
             item["goodsArry"].push({ "name": items.name, "imgUrl": items.imgUrl })
           }
         })
       })
-      console.log(arry)
       this.setData({
         rightItems: arry
       })
     })
   },
   leftClick(ev){
-    console.log(ev)
     this.setData({
       tapColor:ev.target.id,
       toRinghtView:"ids"+ev.target.id

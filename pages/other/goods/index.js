@@ -25,14 +25,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
      let id = options.goodsid
      let poster = options.poster
      // 根据接口传入商品id，获取对应商品的详情数据
     getGoodsInfo({goodsid:id}).then(res=>{
       res.data[0].posters = JSON.parse(res.data[0].posters)
       res.data[0].desc_pictrues = JSON.parse(res.data[0].desc_pictrues)
-      console.log(res.data[0])
       this.setData({
         goodsdesc:res.data[0],
         poster:poster,
@@ -42,7 +40,6 @@ Page({
 
     // 获取当前位置
     getAddress().then(res=>{
-      console.log(res)
       this.setData({
         address:res
       })

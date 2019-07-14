@@ -65,7 +65,6 @@ Page({
     
     let status = options.detail
     let goodsid = options.target.dataset.goodsid
-    console.log(status)
     // 从storay中拿出cart数据，将对应商品的selectStatus值改为传出来的状态值
     let cart =wx.getStorageSync('cartGoods')
     cart = JSON.parse(cart)
