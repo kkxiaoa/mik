@@ -1,3 +1,17 @@
+## [2.0.2](https://github.com/kkxiaoa/mik/compare/v2.0.1...v2.0.2) (2020-06-03)
+
+
+### Bug Fixes
+
+* **client:** 修复主页检索异常 ([af6e5be](https://github.com/kkxiaoa/mik/commit/af6e5be2cbbc50cd5afdd355237d6490be0bbca8))
+
+
+### Features
+
+* **config:** 新增配置项 ([5c92497](https://github.com/kkxiaoa/mik/commit/5c92497a6c0c7633d0187cb03ad58e7e4b4d2cd8))
+
+
+
 ## [2.0.1](https://github.com/kkxiaoa/mik/compare/v2.0.0...v2.0.1) (2020-06-03)
 
 
