@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/kkxiaoa/mik/compare/v2.0.2...v2.0.3) (2020-06-03)
+
+
+### Performance Improvements
+
+* **config:** 调整changelog ([c926de9](https://github.com/kkxiaoa/mik/commit/c926de9e0f9416c8df3a749cb69af5db4ee05a12))
+
+
+
 ## [2.0.2](https://github.com/kkxiaoa/mik/compare/v2.0.1...v2.0.2) (2020-06-03)
 
 
