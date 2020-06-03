@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/kkxiaoa/mik/compare/v2.0.3...v2.0.4) (2020-06-03)
+
+
+### Bug Fixes
+
+* **config:** 修复购物车bug ([a6abb31](https://github.com/kkxiaoa/mik/commit/a6abb31b9158ce3ddb04d457c9883c28055cec76))
+
+
+
 ## [2.0.3](https://github.com/kkxiaoa/mik/compare/v2.0.2...v2.0.3) (2020-06-03)
 
 
