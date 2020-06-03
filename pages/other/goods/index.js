@@ -8,7 +8,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-
     goodsdesc: null,
     hotgoodsData: null,
     indicatorDots: true,
