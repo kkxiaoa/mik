@@ -1,0 +1,26 @@
+{
+  "name": "mik",
+  "version": "1.0.0",
+  "description": "仿小米商城微信小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkxiaoa/mik.git"
+  },
+  "keywords": [
+    "mik",
+    "商城",
+    "小程序，",
+    "购物车"
+  ],
+  "author": "javascirpts@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkxiaoa/mik/issues"
+  },
+  "homepage": "https://github.com/kkxiaoa/mik#readme"
+}
